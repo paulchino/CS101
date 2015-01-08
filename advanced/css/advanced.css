@@ -1,6 +1,9 @@
+/*IDS*/
+
 #nav {
 	width: 970px;
 	background: blue;
+	height: 40px;
 }
 
 #header {
@@ -14,4 +17,31 @@
 	width:960px;
 	height: 700px;
 	background: red;
+}
+
+#main-img {
+	width: 400px;
+	height: 350px;
+	background: green; 
+	display: inline-block;
+}
+
+#main-text {
+	width: 500px;
+	height: 350px;
+	border: solid yellow medium;
+	display: inline-block;
+}
+
+#mid-div {
+	width: 960px;
+	height: 40px;
+	border: solid green medium;
+}
+
+.mini-box {
+	display: inline-block;
+	border: solid yellow medium;
+	width: 220px;
+	height: 300px;
 }
