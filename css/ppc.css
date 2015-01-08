@@ -22,6 +22,10 @@
 	vertical-align: bottom;	
 }
 
+#logo span{
+	display:none;
+}
+
 #tollfree {
 	display: inline-block;
 	position:relative;
@@ -85,7 +89,7 @@ background: url(../images/background.png)repeat-y;
 }
 
 #hero-image img.main {
- 	border: solid 2px: #ffffff !important;
+ 	border: solid 2px #ffffff !important;
 }
 
 #featured-text {
@@ -167,13 +171,13 @@ span.module-title {
     padding-top:3px;
 }
 
-#module-img {
+span.module-img {
 	display:inline-block;
 	width:222px;
 	height:99px;
 }
 
-#readmore {
+span.readmore {
 	display: block;
 	position: relative;
 	left:100px;
