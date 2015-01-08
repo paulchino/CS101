@@ -1,0 +1,17 @@
+#nav {
+	width: 970px;
+	background: blue;
+}
+
+#header {
+	width:960px;
+	height: 100px;
+	background: gray;
+
+}
+
+#main {
+	width:960px;
+	height: 700px;
+	background: red;
+}
