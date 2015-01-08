@@ -1,6 +1,7 @@
 #container {
 	width: 980px;
 	margin: 0 auto;
+	font-family: arial, verdana, 'sans serif';
 	}
 
 #header{
@@ -19,7 +20,6 @@
 	height:100px;
 	background: url(../images/logo.png) no-repeat;
 	vertical-align: bottom;	
-
 }
 
 #tollfree {
@@ -45,16 +45,12 @@
 	height:35px;
 	font-size:.8em;
 	font-weight:bold;
-
-
-
 }
 
 #navbar li{
 	display: inline;
 	border-left: ridge 1px #CCCCCC;
-	padding-bottom:8px;
-	padding-top:14px;
+	padding: 14px 0 8px 0 ;
 }
 
 #navbar li.last {
@@ -65,41 +61,31 @@
 	text-decoration: none;
 	color: #666666;
 	padding-right: 10px;
-
 	margin-left:10px;
 }
 
 #content {
 background: url(../images/background.png)repeat-y;
-/*margin-right: 20px;*/
-/*padding-right:20px;*/
 }
 
 #featured {
 	display:block;
-	/*background-color: #333333;*/
 	height:280px;
 	padding-top:20px;
-	margin-left:20px;
-	margin-right:20px;
-
-
+	margin: 0 20px;
 }
 
 #hero-image {
 	display: inline-block;
-	background: url(../images/main_pic.png);
-	border: solid 5px #ffffff;
+	vertical-align: top;
 	width: 377px;
 	height:255px;
-	vertical-align: top;
-	/*margin-top:10px;
-	margin-left:20px;*/
+	background: url(../images/main_pic.png);
+	border: solid 5px #ffffff;
 }
 
 #hero-image img.main {
  	border: solid 2px: #ffffff !important;
-
 }
 
 #featured-text {
@@ -107,15 +93,11 @@ background: url(../images/background.png)repeat-y;
 	position: relative;
 	left:20px;
 	width: 520px;
-	/*height:265px;*/
-	/*padding-right:10px;*/
 	background: url(../images/featured_bg.png);
-	
 }
 
 #featured-text p {
-	padding-left:8px;
-	padding-right:8px;
+	padding: 0 8px;
 	color: #FFFFFF;
 	font-size:.8em;
 	font-weight:300;
@@ -127,45 +109,29 @@ h1.featured-heading {
 	position: relative;
 	bottom:10px;
 	height:20px;
-	padding-left:10px;
-
-
+	padding: 7px 0 0 10px;
 	background: -webkit-linear-gradient(#FEC72F 70%, #FCCF58 15%, #FBD15B 15%); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(#FEC72F 70%, #FCCF58 15%, #FBD15B 15%); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(#FEC72F 70%, #FCCF58 15% , #FBD15B 15%); /* For Firefox 3.6 to 15 */
     background: linear-gradient(#FEC72F 70%, #FCCF58 15%, #FBD15B 15%); /* Standard syntax (must be last) */
-
-
-
-	/*background: -webkit-linear-gradient(#FEC72F 70%, #FEC72F 70%, #FBD15B 15%); /* For Safari 5.1 to 6.0 */
-   /* background: -o-linear-gradient(#FCCF58 15%, #FEC72F 70%, #FBD15B 15%); /* For Opera 11.1 to 12.0 */
-    /*background: -moz-linear-gradient(#FCCF58 15%, #FEC72F 70% , #FBD15B 15%); /* For Firefox 3.6 to 15 */
-    /*background: linear-gradient(#FCCF58 15%, #FEC72F 70%, #FBD15B 15%); /* Standard syntax (must be last) */
-
     font-size:1em;
     color: #333333;
-    padding-top:7px;
 }
 
 h2.featured-subtitle {
 	color: #FFFFFF;
 	font-size: 1em;
-	font-family: arial, verdana, 'sans serif';
 	font-weight: 400;
 	margin-left:10px;
-
 }
 
 #newsflash {
 	display: block;
 	position:relative;
 	left:20px;
-	/*width:200px;*/
 	background: url(../images/tiny_logo.png) no-repeat;
 	color: #FAD15B;
 	font-size: .7em;
-	/*margin-top:8px;*/
-	/*padding-right:40px;*/
 }
 
 #newsflash span {
@@ -174,9 +140,7 @@ h2.featured-subtitle {
 
 #featured-modules{
 	display: block;
-	/*height:300px;*/
 	padding: 15px 19px;
-
 }
 
 #featured-modules div.featured{
@@ -187,37 +151,7 @@ h2.featured-subtitle {
 	height:230px;
 	margin-right:8px;
 	background-color:#FEF8EA;
-
 }
-/*#featured-2{
-	display: inline-block;
-	vertical-align: top;
-	width: 222px;
-	border: solid 1px #333333;
-	height:230px;
-	margin-right:10px;
-	background-color:#FEF8EA;
-	
-}
-#featured-3{
-	display: inline-block;
-	vertical-align: top;
-	width: 222px;
-	border: solid 1px #333333;
-	height:230px;
-	margin-right:10px;
-	background-color:#FEF8EA;
-}
-#featured-4{
-	display: inline-block;
-	vertical-align: top;
-	width: 222px;
-	border: solid 1px #333333;
-	height:230px;
-	background-color:#FEF8EA;
-
-	
-}*/
 
 span.module-title {
 	display:block;
@@ -231,52 +165,23 @@ span.module-title {
     color: #333333;
     padding-left:10px;
     padding-top:3px;
-
 }
 
-#module-img-1 {
+#module-img {
 	display:inline-block;
 	width:222px;
 	height:99px;
-	background: url(../images/automotive.png);
-
-}
-#module-img-2 {
-	display:inline-block;
-	width:222px;
-	height:99px;
-	background: url(../images/commercial.png);
-	
-}
-#module-img-3 {
-	display:inline-block;
-	width:222px;
-	height:99px;
-	background: url(../images/industrial.png);
-	
-}
-#module-img-4 {
-	display:inline-block;
-	width:222px;
-	height:99px;
-	background: url(../images/diesel.png);
-	
 }
 
-span.module-text{
+#readmore {
+	display: block;
+	position: relative;
+	left:100px;
+}
+
+span.module-text {
 	display:block;
 	font-size: .6em;
 	margin-bottom: 10px;
 	padding-left:10px;
 	}
-	
-#readmore {
-	display: block;
-	position: relative;
-	left:100px;
-	/*position: relative;
-	bottom: 10px;
-	right:20px;*/
-}
-
-
