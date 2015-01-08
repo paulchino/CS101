@@ -1,0 +1,173 @@
+/*ID and class css at top.*/
+#container {
+	width:970px;
+	
+}
+
+.nav {
+	font-family: "verdana";
+	font-weight: bold;
+	font-size: 12px;
+	color: #6C635C;
+	margin: 0;
+	padding: 3px 0px 3px 0px;
+}
+
+.nav a {
+	color:#9CA8B3;
+	text-decoration: none;
+
+}
+
+#sidebar ul {
+	color: #a01b2c;
+}
+
+.search p {
+	color: white;
+	font-size: 11px;
+	margin-top: 5px;
+
+}
+
+.search p a {
+	color: yellow;
+}
+
+#btn {
+	background-color: #a01b2c;
+	border-radius: 0px;
+	color: white;
+	outline: white solid 1px;
+	border: 2px;
+	padding: 1px 2px 1px 2px;
+	font-size: 10px;
+	display:inline-block;
+
+}
+
+#header-top {
+	width: 970px;
+	display: inline-block;
+	margin-bottom: 0px;
+	position: relative;
+
+	background: -webkit-linear-gradient(#8C0000, #AB0000); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#8C0000, #AB0000); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#8C0000, #AB0000); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#8C0000, #AB0000); /* Standard syntax */
+}
+
+.logo {
+	width: 500px;
+	display: inline-block;
+}
+
+.search {
+	width: 300px;
+	display: inline-block;
+	position: absolute;
+	right: 0px;
+	text-align: right;
+	margin-right: 40px;
+
+}
+
+#header-bottom {
+	background-color: #EAEAEA;
+	width: 970px;
+	display: block;
+	margin-bottom: 20px;
+}
+
+
+
+#sidebar {
+	background-color: #EEEEEE;
+	width: 160px;
+	margin-right: 20px;
+	vertical-align: top;
+	display: inline-block;
+	outline: grey solid 1px;
+}
+
+#main {
+
+	width: 710px;
+	display: inline-block;
+	vertical-align: top;
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
+
+
+#main ul li {
+	margin-right: 12px;
+
+}
+
+#main ul li p {
+	margin: 2px 0px 2px 0px;
+
+}
+
+#footer {
+	background-color: #DDDDDD;
+	border-radius: 20px;
+	width: 970px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+h1 {
+	width: 200px;
+	display: inline-block;
+	color: white;
+	font-size: 20px;
+	font-family: "lucida console", times, serif;
+	position: relative;
+	vertical-align: top;
+	display: inline-block;
+	margin-top: 25px;
+
+}
+
+h2 {
+	color:#a01b2c;
+	font-family: "verdana";
+	font-size: 16px;
+	margin-top: 0;
+
+}
+
+
+h3 {
+	color:#a01b2c;
+	font-family: "verdana";
+	font-size: 12px;
+
+}
+
+hr {
+	font-weight: bold;
+}
+
+img {
+	margin-left: 20px;
+}
+
+a {
+	color: #a01b2c;
+}
+
+p {
+	font-family: "verdana";
+	font-size: 12px;
+}
+
+li {
+	font-family: "verdana";
+	font-size: 12px;
+
+}
